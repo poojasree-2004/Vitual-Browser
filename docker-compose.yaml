@@ -1,4 +1,4 @@
-version: "3"
+version: "3.8"
 services:
   neko:
     image: "adijaiswal/vb:latest"
@@ -13,3 +13,4 @@ services:
       NEKO_PASSWORD_ADMIN: admin
       NEKO_EPR: 52000-52100
       NEKO_ICELITE: 1
+      NEKO_TITLE: "Virtual Browser"
